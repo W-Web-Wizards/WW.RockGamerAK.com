@@ -1,6 +1,6 @@
 function play() {
   var img = document.querySelector('img')
-  img.setAttribute('src', 'https://4u-online.github.io/Files/anim.png')
+  img.setAttribute('src', 'https://4u-online.github.io/Files/anim.gif')
   img.setAttribute('onclick', 'stop()')
 }
 
