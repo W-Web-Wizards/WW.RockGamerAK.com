@@ -20,7 +20,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-html,body,iframe {
+html, body, iframe {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -57,6 +57,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
   padding: 30px 10%;
   background-color: var(--header-color);
   flex-wrap: wrap;
@@ -87,6 +88,13 @@ header {
 .seperator {
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
 }
 
 nav ul {
