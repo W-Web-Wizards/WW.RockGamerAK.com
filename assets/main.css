@@ -56,7 +56,6 @@ h1, heading-link {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
   background-color: var(--header-color);
