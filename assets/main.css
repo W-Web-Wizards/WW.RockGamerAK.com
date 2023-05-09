@@ -68,7 +68,7 @@ header {
   
   flex-direction: column;
   text-align: center;
-  align-items: middle;
+  align-items: center;
   justify-content: center;
 
   width: 100px;
@@ -78,10 +78,6 @@ header {
   background-color: var(--logo-color);
   color: var(--main-bg-color);
   font-size: 150%;
-}
-
-.logo span {
-  margin: 36px 16.015px 36px 16.015px;  
 }
 
 .seperator {
