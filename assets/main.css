@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
-  --font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif;
   --main-bg-color: white;
   --main-color: black;
   --highlight-color: rgb(144, 212, 228);
@@ -12,8 +12,6 @@
   --navigation-color: white;
   --navigation-hover: hsl(209, 56%, 53%);
   --current-page-color: hsl(200, 90%, 50%);
-  --content-links-hover: rgb(144, 212, 228);
-  --content-links-expansion: 2vh;
 }
 
 * {
