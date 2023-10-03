@@ -175,7 +175,7 @@ nav ul a li:hover {
   box-sizing: border-box;
   width: 100%;
   aspect-ratio: 1;
-  /* position: relative; */
+  position: relative;
 
   & img {
     position: absolute;
