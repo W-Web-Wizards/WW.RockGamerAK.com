@@ -45,7 +45,8 @@ main {
   text-decoration: none
 }
 
-h1, heading-link {
+h1, .heading-link {
+  text-align: center;
   color: var(--main-color);
   font-size: 30px;
   font-weight: 7500;
@@ -154,27 +155,40 @@ nav ul a li:hover {
   width: 50rem;
 }
 
-table {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-
-table tr {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
   gap: 10px;
-  align-items: center;
-  justify-content: center;
 }
 
-table tr td {
+.grid .item {
   background-color: var(--highlight-color);
-  border-radius: 5%;
+  border-radius: 5px;
   padding: 20px 20px 10px 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.grid .item .img-parent {
+  box-sizing: border-box;
+  width: 100%;
+  aspect-ratio: 1;
+  /* position: relative; */
+
+  & img {
+    /* position: absolute;
+    max-width: 100%;
+    max-height: 100%; */
+    object-fit: contain;
+  }
+}
+
+.grid .item .title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
