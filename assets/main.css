@@ -173,6 +173,7 @@ nav ul a li:hover {
 
 .grid .item .img-parent {
   box-sizing: border-box;
+  max-width: 100%;
   aspect-ratio: 1;
   position: relative;
 
