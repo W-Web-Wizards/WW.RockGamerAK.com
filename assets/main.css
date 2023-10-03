@@ -165,7 +165,7 @@ nav ul a li:hover {
 .grid .item {
   background-color: var(--highlight-color);
   border-radius: 5px;
-  padding: 20px 20px 10px 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
