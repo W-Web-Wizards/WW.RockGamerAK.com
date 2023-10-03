@@ -26,8 +26,9 @@ html, body, iframe {
 }
 
 main {
+  box-sizing: border-box;
   margin: 8;
-  height: 83.8%;
+  height: fit-content;
 }
 
 #main-content {
