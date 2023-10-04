@@ -160,7 +160,7 @@ nav ul a li:hover {
   grid-template-columns: repeat(4, 1fr);
   /* justify-items: center; */
   align-items: center;
-  gap: 10px;
+  gap: 25px;
 }
 
 .grid .item {
