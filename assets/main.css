@@ -53,7 +53,9 @@ h1, .heading-link {
 }
 
 #page-title {
+  padding-block-end: .67em;
   border-bottom: solid 1px gray;
+  margin-block-end: .67em;
 }
 
 /* Styles for the Navigation Bar */
