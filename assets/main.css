@@ -168,12 +168,13 @@ nav ul a li:hover {
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
+  /* justify-items: center; */
   /* align-items: center; */
   gap: 25px;
 }
 
 .grid .item {
+  margin-inline: auto;
   background-color: var(--highlight-color);
   border-radius: 15px;
   padding: 20px;
