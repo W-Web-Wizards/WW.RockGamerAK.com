@@ -52,6 +52,10 @@ h1, .heading-link {
   text-decoration: none
 }
 
+.heading-link {
+  border-bottom: solid 1px gray;
+}
+
 /* Styles for the Navigation Bar */
 header {
   display: flex;
