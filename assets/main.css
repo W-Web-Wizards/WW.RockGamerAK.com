@@ -52,7 +52,7 @@ h1, .heading-link {
   text-decoration: none
 }
 
-.page-title {
+#page-title {
   border-bottom: solid 1px gray;
 }
 
