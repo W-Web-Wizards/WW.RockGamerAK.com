@@ -53,7 +53,7 @@ h1, .heading-link {
 }
 
 #page-title {
-  --gap: .67em;
+  --gap: 1em;
   padding-block-end: var(--gap);
   border-bottom: solid 1px gray;
   margin-block-start: var(--gap);
